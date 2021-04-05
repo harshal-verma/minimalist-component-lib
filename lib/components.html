@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <link rel="stylesheet" href="/styles2.css">
+    <title>component library</title>
 </head>
 <body>
 <h2>harshal's component library</h2>
-<p>I want to make a minimaist library which makes all my projects and blogs look good and consistent</p>
+<p>This is a minimalist library which I use to make all my projects and blogs look good and consistent</p>
 <hr>
 
 <h2>@typography</h2>
@@ -21,33 +22,33 @@
 
 <h2>@container</h2>
 <h3>fluid container</h3>
-<p>This is a fliud container and it will go till the end of the page</p>
+<div class = "container">This is a fliud container and it will go till the end of the page</div>
 <h3>center container</h3>
-<p>This is a centered container and it will go till the specified width</p>
+<div class = "container center-container">This is a centered container and it will go till the specified width</div>
 <hr>
 
-<h3>@links</h3>
-<a href="/">Primary Link</a>
-<a href="/">Secondary Link</a>
+<h2>@links</h2>
+<a class = "link link-primary" href="/">Primary Link</a>
+<a class = "link link-secondary" href="/">Secondary Link</a>
 <hr>
 
-<h3>@lists</h3>
+<h2>@lists</h2>
 <h2>unordered list</h2>
 <p>this will not have bullets</p>
-<ul>
+<ul class = "list-non-bullet">
     <li>Item One</li>
     <li>Item Two</li>
     <li>Item Three</li>
 </ul>
 <h2>unordered inline list</h2>
 <p>this will not have bullets</p>
-<ul>
-    <li>Inline Item One</li>
-    <li>Inline Item Two</li>
-    <li>Inline Item Three</li>
+<ul class = "list-non-bullet">
+    <li class = "list-item-inline">Inline Item One</li>
+    <li class = "list-item-inline">Inline Item Two</li>
+    <li class = "list-item-inline">Inline Item Three</li>
 </ul>
 <h2>reverse ordered list</h2>
-<ol>
+<ol reversed>
     <li>Milk</li>
     <li>Eggs</li>
     <li>Break</li>
@@ -55,20 +56,20 @@
 <hr>
 
 <h2>@nav</h2>
-<nav>
-<div>iAmBrand</div>
+<nav class = "navigation">
+<div class = "nav-heading">iAmBrand</div>
 <ul>
-    <li><a href="/">home</a></li>
-    <li><a href="/">products</a></li>
-    <li><a href="/">about</a></li>
+    <li class = "list-item-inline"><a href="/">home</a></li>
+    <li class = "list-item-inline"><a href="/">products</a></li>
+    <li class = "list-item-inline"><a href="/">about</a></li>
 </ul>
 </nav>
 <hr>
 
 <h2>@header</h2>
-<header>
+<header class = "hero container">
 <img src="/images/headerBlack2.svg" alt="">
-<h1>this is heading h1 inside header</h1>
+<h1 class = "hero-heading">this is heading h1 inside header</h1>
 </header>
 <hr>
 
