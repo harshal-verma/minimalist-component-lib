@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #111827;
+    --off-white: #E5E7EB;
 }
 
 body{
@@ -89,11 +90,45 @@ hr{
 .hero{
     padding: 1rem;
 }
+
 .hero img{
     max-width: 350px;
     margin: auto;
     display: block;
 }
+
 .hero .hero-heading{
     text-align: center;
+}
+
+.section{
+    padding: 2rem;
+}
+.section .section-heading{
+    text-align: center;
+}
+.ow{
+   background-color: #E5E7EB;
+}
+.section .section-text{
+    max-width: 650px;
+    margin: auto;
+    text-align: left;
+}
+.footer{
+    padding: 2rem;
+    background-color: var(--primary-color);
+}
+.footer .footer-heading{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.footer ul{
+    text-align: center;
+    padding-inline-start: 0px;
+}
+.footer .list-non-bullet .list-item-inline a{
+    color: white;
+    font-size: 0.8rem;
 }
