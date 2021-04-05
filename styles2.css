@@ -118,6 +118,7 @@ hr{
 .footer{
     padding: 2rem;
     background-color: var(--primary-color);
+    border-top-right-radius: 0.8rem;
 }
 .footer .footer-heading{
     color: white;
@@ -130,5 +131,5 @@ hr{
 }
 .footer .list-non-bullet .list-item-inline a{
     color: white;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
